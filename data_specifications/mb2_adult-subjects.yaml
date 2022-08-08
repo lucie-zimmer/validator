@@ -13,7 +13,7 @@
   NA_allowed:   no
 
 - field:        participant_id
-  description:  unique ID for the participant: [acronym of your institution, not longer than 4 characters]_[3-digit participant number ]
+  description:  unique ID for the participant - [acronym of your institution, not longer than 4 characters]_[3-digit participant number ]
   type:         string
   format:       string
   example:      LMU_583
@@ -189,7 +189,7 @@
   NA_allowed:   no
 
 - field:        age_years
-  description:  Chronological age in years. Here is an online converter: https://www.timeanddate.com/date/duration.html
+  description:  Chronological age in years.
   type:         integer 
   format:       integer
   required:     yes
